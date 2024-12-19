@@ -1,0 +1,140 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    margin: 0 0 10px;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Hero Section */
+.hero {
+    background: url('3.jpeg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Work Section */
+.work {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.work .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.work .gallery img {
+    width: calc(50% - 20px);
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Features Section */
+.features {
+    background: #f4f4f4;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.features .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px);
+    max-width: calc(33.333% - 20px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Newsletter Section */
+.newsletter {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.newsletter button:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
